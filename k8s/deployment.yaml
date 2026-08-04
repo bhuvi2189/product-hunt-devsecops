@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-hunt
-        image: admantbhuvi/product-hunt-frontend:v1
+        image: admantbhuvi/product-hunt-frontend:15
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
